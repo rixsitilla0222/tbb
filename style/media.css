@@ -207,6 +207,30 @@
     .services__content .title {
         font-size: 25px;
     }
+
+    .services__link {
+        padding: 0;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services__link img{
+        width: 100px;
+    }
+
+    .services {
+        padding-bottom: 20px;
+    }
+
+    .footer{
+        padding-top: 20px;
+    }
+
+    .footer__logo img {
+        width: 180px;
+    }
 }
 
 @media (max-width:375px) {
@@ -217,5 +241,31 @@
 
     .menu-btn:focus+.menu__inner {
         transform: translateY(0);
+    }
+}
+
+@media (max-width:360px){
+    .services__content .title {
+        font-size: 23px;
+    }
+
+    .services-right__item {
+        padding: 0 15px;
+        flex-direction: column;
+    }
+
+    .intro__title {
+        font-size: 27px;
+    }
+}
+
+@media (max-width:320px){
+    .intro__title {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .services__content .title {
+        text-align: center;
     }
 }
